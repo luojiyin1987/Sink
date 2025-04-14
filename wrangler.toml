@@ -5,3 +5,8 @@ port = 3000
 
 [ai]
 binding = "AI"
+
+
+# --- 这是关键部分 ---
+# 指定你的服务器端代码（Functions）的主入口文件
+main = ".output/server/index.mjs"
